@@ -1,0 +1,231 @@
+@media (max-width: 1350px) {
+    .header-nav {
+        width: 800px;
+    }
+
+    .section1 {
+        margin-top: 100px;
+        flex-direction: column;
+        padding-left: 10px !important;
+
+         &-img {
+            align-self: flex-end;
+            height: 500px !important;
+            width: 650px !important;
+        }
+    }
+
+    .section2 {
+        flex-direction: column;
+        align-items: center;
+        gap: 75px;
+    }
+
+    .section3-cards {
+        grid-template-columns: repeat(2, 1fr) !important;
+        grid-template-rows: repeat(2, 1fr) !important;
+        gap: 150px !important;       
+    }
+
+    .section5-cards {
+        grid-template-columns: repeat(2, 1fr);
+        column-gap: 70px;
+        row-gap: 40px;
+    }
+}
+
+@media (max-width: 1200px) {
+    .header {
+        flex-direction: column;
+        gap: 15px;
+    }
+}
+
+@media (max-width: 960px) {
+    .section4 {
+        flex-direction: column;
+        gap: 10px !important;
+
+        &-img {
+            align-self: flex-end;
+        }
+
+        &-info {
+            align-self: flex-start;
+            padding-left: 20px;
+        }
+    }
+
+    .section5-cards {
+        grid-template-columns: repeat(1, 1fr);
+        row-gap: 30px;
+    }
+
+    .footer {
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 840px) {
+    .nav-items {
+        display: none !important;
+    }
+
+    .header {
+        flex-direction: row;
+        padding-left: 20px !important;
+        padding-right: 20px !important;
+    }
+
+    .burger {
+        display: flex !important;
+        margin-right: 20px;
+    }
+
+    .section1-info {
+        h1 {
+            font-size: 50px !important;
+        }
+
+        p {
+            font-size: 16px !important;
+        }
+    }
+
+        // ДОБАВЬТЕ ЭТО
+    .container {
+        padding-left: 20px !important;
+        padding-right: 20px !important;
+    }
+}
+@media (max-width: 780px) {
+    .header::before,
+    .section1-img::before,
+    .section2-image::before {
+        display: none;
+    }
+
+    .section6-input input {
+        width: 350px;
+    }
+
+    .feature-list-item {
+        flex-direction: column;
+
+        .feature-logo {
+            align-self: start;
+        }
+
+        .feature-info {
+            align-self: start;
+        }
+    }
+
+    .section4-img {
+        width: 450px;
+        height: 500px;
+
+        img {
+            width: 100%;
+            height: 100%;
+        }
+    }
+
+    .section3-cards {
+        grid-template-columns: 1fr !important;
+        grid-template-rows: 4fr !important;       
+    }
+
+    .container {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .footer {
+        gap: 30px;
+    }
+
+    .footer-left-part {
+        align-self: center;
+    }
+
+    .footer-right-part {
+        flex-direction: column;
+        align-self: center;
+    }
+}
+
+
+@media (max-width: 600px) {
+    .burger {
+        margin-right: 15px;
+        gap: 6px;
+
+        span {
+            width: 28px;
+        }
+    }
+
+    .header-logo {
+        width: 120px;
+        height: 36px;
+    }
+
+    .header {
+        padding-left: 10px !important;
+        padding-right: 5px !important;
+    }
+}
+
+@media (max-width: 480px) {
+    .header {
+        justify-content: flex-start !important;
+        gap: 0 !important;
+
+    }
+
+    .section6-input {
+        input {
+            width: 250px;
+            height: 55px;
+        }
+
+        button {
+            width: 40px;
+            height: 55px;
+        }
+    }
+
+    .signin-btn, .signup-btn {
+        width: 70px !important;
+        height: 35px !important;
+        font-size: 14px !important;
+        padding: 0 !important;
+    }
+
+    .container {
+        padding-right: 5px !important;
+        padding-left: 5px !important;
+    }
+
+    .section1-img {
+        height: 280px !important;
+        width: 340px !important;
+    }
+
+    .section4-img {
+        width: 320px;
+        height: 400px;
+
+        img {
+            width: 100%;
+            height: 100%;
+        }
+    }
+//   .section1-img::before {
+//     left: 50%; 
+//     transform: translateX(-50%); // центрируем
+//     width: 200px !important;
+//     height: 200px !important;
+//   }
+}

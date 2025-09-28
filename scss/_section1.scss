@@ -1,0 +1,66 @@
+.section1 {
+    padding-left: 93px;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+
+    &-info {
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        max-width: 635px;
+        height: 348px;
+
+        h1 {
+            font-size: 70px;
+            max-width: 580px;
+
+            span {
+                color: $violet-color;
+            }
+        }
+
+        p {
+            line-height: 28px;
+            font-weight: 400;
+            font-size: 20px;
+        }
+
+        button {
+            font-size: 16px;
+            width: 170px;
+            height: 45px;
+            background-color: $yellow-color;
+            border: none;
+            font-weight: 600;
+            cursor: pointer;
+        }
+    }
+
+    &-img {
+        position: relative;
+        max-width: 716px;
+        max-height: 613px;
+
+        img {
+            display: block;
+            max-width: 100%;
+            height: auto;
+            position: relative;
+        }
+
+        &::before {
+            content: "";
+            position: absolute;
+            background-color: $yellow-color;
+            width: 350px;
+            height: 350px;
+            border-radius: 100%;
+            left: 140px;
+            top: 60px;
+            opacity: 20%;
+            filter: blur(100px);
+        }
+    }
+}

@@ -1,0 +1,65 @@
+@import '_variables';
+@import '_header';
+@import '_section1';
+@import '_section2';
+@import '_section3';
+@import '_section4';
+@import '_section5';
+@import '_section6';
+@import '_footer';
+@import '_media';
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    // outline: solid red;
+}
+
+.container {
+    padding-left: 93px;
+    padding-right: 93px;
+    padding-top: 20px;
+    max-width: 1536px; 
+    margin: 0 auto;
+}
+
+body {
+    font-family: 'Work Sans';
+    color: $text-color;
+    background-color: $white-color;
+    width: 100%;
+    overflow-x: hidden;
+}
+
+button {
+    font-family: inherit;
+}
+
+main {
+    width: 100%;
+}
+
+.section1-img img,
+.section2-image img {
+  max-width: 100%;
+  height: auto;
+}
+
+.violet {
+    color: $violet-color !important;
+    font-size: 26px !important;
+    font-weight: 500 !important;
+}
+
+// В style.scss, рядом с другими img-правилами
+.section3-card img,
+.section5-card img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+// .header-drop-menu {
+//     display: none;
+// }

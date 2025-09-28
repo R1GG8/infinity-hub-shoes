@@ -1,0 +1,64 @@
+.footer {
+    display: flex;
+    gap: 64px;
+    margin-bottom: 52px !important;
+    margin-top: 100px !important;
+
+    &-left-part {
+        display: flex;
+        flex-direction: column;
+        max-width: 380px;
+        height: 259px;
+
+        > img {
+            width: 272px;
+            height: 82px;
+            margin-bottom: 8px;
+        };
+
+        p {
+            font-size: 14px;
+            line-height: 22px;
+            width: 100%;
+            margin-bottom: 22px;
+        }
+
+        .footer-icons {
+            a {
+                display: inline-block;
+            }
+
+            display: flex;
+            gap: 20px;
+        }
+    }
+
+    &-right-part {
+        display: flex;
+        gap: 60px;
+
+        a {
+            display: inline-block;
+            max-width: 340px;
+            text-decoration: none;
+            color: $text-color;
+            font-size: 18px;
+        }
+
+        li {
+            list-style: none;
+        }
+
+        .violet {
+            margin-bottom: 4px;
+        }
+
+        .about-footer,
+        .company-footer,
+        .contact-footer {
+            display: flex;
+            flex-direction: column;
+            gap: 25px;
+        }
+    }
+}

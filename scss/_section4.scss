@@ -1,0 +1,33 @@
+.section4 {
+    margin-top: 253px;
+    display: flex;
+    gap: 70px;
+    justify-content: end;
+    align-items: center;
+    color: white;
+    min-height: 542px;
+    background: #7B29DD;
+    background: linear-gradient(90deg, rgba(123, 41, 221, 1) 0%, rgba(253, 196, 0, 1) 100%);
+
+    h2 {
+        font-size: 46px;
+        font-weight: 500;
+        margin-bottom: 18px;
+    }
+
+    p {
+        font-size: 16px;
+        line-height: 26px;
+    }
+
+    &-info {
+        max-width: 580px;
+        height: auto;
+        margin-right: 93px;
+    }
+
+    &-img {
+        transform: translateY(-80px);
+    }
+
+}
