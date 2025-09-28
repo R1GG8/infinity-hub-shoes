@@ -2,7 +2,8 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-
+    position: relative;
+    
     .burger {
         display: none;
         cursor: pointer;
@@ -92,4 +93,5 @@
         opacity: 16%;
         filter: blur(100px);
     }
+
 }
