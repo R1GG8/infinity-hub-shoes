@@ -60,6 +60,27 @@ main {
   display: block;
 }
 
-// .header-drop-menu {
-//     display: none;
-// }
+.header-drop-menu {
+    display: none;
+    width: 100%;
+    flex-direction: column;
+    position: absolute;
+    top: 100px;
+    right: 0;
+    background-color: $burger-menu-color;
+    gap: 20px;
+    padding-bottom: 25px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    z-index: 1000;
+
+    a:first-child {
+        margin-top: 20px;
+    }
+
+    a {
+        text-decoration: none;
+        color: $text-color;
+        margin: 5px;
+        margin-left: 15px;
+    }
+}
